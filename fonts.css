@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Anton";
+    src: url("/fonts/Anton-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "BarlowCondensed-Black";
+    src: url("/fonts/BarlowCondensed-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: "BarlowCondensed-Bold";
+    src: url("/fonts/BarlowCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LilitaOne-Regular";
+    src: url("/fonts/LilitaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "bahnschrift";
+    src: url("/fonts/bahnschrift.ttf") format("truetype");
+}
+@font-face {
+    font-family: "ComicNeue-Regular";
+    src: url("/fonts/ComicNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Arial-Black";
+    src: url("/fonts/Arial-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Carlito-Bold";
+    src: url("/fonts/Carlito-Bold.ttf") format("truetype");
+}
