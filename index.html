@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReelSub AI – Kinetic Subtitle Generator</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { background: #05070f; }
+      @keyframes spin  { to { transform: rotate(360deg); } }
+      @keyframes shine { from { left: -100%; } to { left: 200%; } }
+
+      input[type="range"] {
+        -webkit-appearance: none; height: 4px;
+        background: #1a2030; border-radius: 2px; outline: none;
+      }
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none; width: 16px; height: 16px;
+        background: #f5a623; border-radius: 50%; cursor: pointer;
+      }
+      select option { background: #0b0e1a; }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #05070f; }
+      ::-webkit-scrollbar-thumb { background: #1a2030; border-radius: 3px; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
