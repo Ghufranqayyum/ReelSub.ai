@@ -70,7 +70,7 @@ The frontend uploads media via REST endpoints, kicks off a background job (trans
 ### Backend Setup
 
 ```bash
-git clone https://github.com/<your-username>/reelsub-ai.git
+git clone https://github.com/<Ghufranqayyum>/reelsub-ai.git
 cd reelsub-ai/backend
 
 python -m venv venv
